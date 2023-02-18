@@ -14,7 +14,7 @@ module.exports = {
     messages: {
         type: "choose commit type",
         customScope: "enter the modification range(optional)",
-        subject: "a brew description",
+        subject: "a brew description (commit)",
         body: " a description",
         footer : "enter the closed issue (optional)",
         confirmCommit : "sure to commit (y/n/e/h)"
