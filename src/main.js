@@ -5,5 +5,8 @@ import store from './store'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import '@/styles/index.scss'
+import SvgIcon from '@/icons'
 
-createApp(App).use(store).use(router).use(ElementPlus).mount('#app')
+const app = createApp(App)
+SvgIcon(app)
+app.use(store).use(router).use(ElementPlus).mount('#app')
